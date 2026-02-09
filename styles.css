@@ -1,0 +1,167 @@
+:root {
+    --titleBgColor: black;
+}
+
+body {
+    margin: 0;
+}
+
+
+.titleBG {
+    background-color: var(--titleBgColor);
+    height: 47vw;
+}
+
+.titleNavBg {
+    background-color: var(--titleBgColor);
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 2%;
+}
+
+.titleNavBtn {
+    font-size: 1vw;
+    background-color: var(--titleBgColor);
+    border-style: solid;
+    border-color: var(--titleBgColor);
+    color: red;
+    width: 15%;
+    height: 15%;
+    margin-left: 4%;
+    margin-right: 4%;
+    transition: font-size 0.3s ease;
+    text-align: center;
+
+}
+
+.titleNavBtn:hover {
+    font-size: 2vw;
+}
+
+.titleMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: orange;
+    margin-bottom: 5%;
+}
+
+.titleMainUni {
+    color: orange;
+    font-size: 2.5vw;
+    transition: font-size 0.3s ease;
+}
+
+.titleMainUni:hover {
+    color: red;
+    font-size: 3.5vw;
+}
+
+.titleMainCourse {
+    color: orange;
+    font-size: 2.5vw;
+    transition: font-size 0.3s ease;
+}
+
+.titleMainCourse:hover {
+    color: red;
+    font-size: 3.5vw;
+}
+
+.titleImg {
+    width: 20%;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-color: white;
+    border-radius: 100vw;
+}
+
+.titleBottom {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 5%;
+    margin-left: 4%;
+}
+
+.descSectionBg {
+    background-color: #b48055;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.descSectionTitle {
+    padding-top: 3vw;
+    font-size: min(4vw, 48px);
+    text-align: center;
+    color: black;
+    margin-bottom: 3vw;
+    font-weight: 700;
+}
+
+.descSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 4vw;
+}
+
+.descSectionImg {
+    text-align: center;
+    width: 30vw;
+    height: 30vw;
+    max-width: 360px;
+    max-height: 360px;
+    object-fit: cover;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-color: white;
+    border-radius: 10vw;
+}
+
+.descSectionText {
+    width: 55%;
+    font-size: min(2vw, 24px);
+    color: black;
+    text-align: center;
+}
+
+
+.experienceBg {
+    background-color: #b48055;
+    margin: auto;
+    max-width: 1200px;
+    
+}
+
+.experienceTitle {
+    padding-top: 3vw;
+    font-size: min(4vw, 48px);
+    text-align: center;
+    color: black;
+    margin-bottom: 3vw;
+    font-weight: 700;
+}
+
+.experienceSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 4vw;
+}
+
+.experienceList {
+    text-align: center;
+    width: 30%;
+    font-size: min(2vw, 24px);
+    color: black;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-radius: 2vw;
+}
+
+.experienceText {
+    width: 55%;
+    font-size: min(2vw, 24px);
+    color: black;
+    text-align: center;
+}
