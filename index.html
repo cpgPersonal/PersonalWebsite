@@ -4,14 +4,17 @@
         <link rel="stylesheet" href="styles.css">
     </head>
 
-    <body style="background-color: #af6223;">
+    <body style="background-color: #3d3d3d;"> 
+        <!-- Title Section -->
         <section class="titleBG">
+
             <div class="titleNavBg">
-                <button class="titleNavBtn">Button1</button>
-                <button class="titleNavBtn">Button2</button>
-                <button class="titleNavBtn">Button3</button>
-                <button class="titleNavBtn">Button4</button>
+                <button onclick="location.href='#aboutMe'" class="titleNavBtn">About Me</button>
+                <button onclick="location.href='#experience'" class="titleNavBtn">My Experience</button>
+                <button class="titleNavBtn">N/A</button>
+                <button class="titleNavBtn">N/A</button>
             </div> 
+
             <div class="titleMain">
                 <div>
                     <h1 style="font-size: 4vw">Callum Piper-Gilbert</h1>
@@ -20,14 +23,13 @@
                 </div>
                 <img class="titleImg" src="images/titleImg.JPEG" alt="Image of Callum">
             </div>
-            <div class="titleBottom">
-                <img style="width: 5%;" src="images/LI-In-Bug.png" alt="Linkedin Official Logo">
-            </div>
+            <a href="https://www.linkedin.com/in/callum-piper-gilbert-367011340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener nopeferrer"><img class="linkedinImg" src="images/LI-In-Bug.png" alt="Linkedin Official Logo"></a>
         </section>
 
-        <section class="descSectionBg">
+        <!-- About Me Section -->
+        <section id="aboutMe" class="descSectionBg">
             <p class="descSectionTitle">About Me</p>
-
+            <!--Top-->
             <div class="descSection">
                 <div class="descSectionText">
                     <p>Hi, my name is Callum and I am currently a student in the University of Reading. I am studying BSc Computer science and am really enjoying it. I grew up in Cornwall studying for GCSE's, and studying for a BTEC Level 3 diploma in IT. I achieved Distinction* Distinction Distinction for this.</p>
@@ -35,7 +37,7 @@
                 </div>
                 <img class="descSectionImg" src="images/ComputerImage.JPEG" alt="Image of PC">
             </div>
-
+            <!--Bottom-->
             <div class="descSection">
                 <img class="descSectionImg" src="images/RGBMouse.JPEG" alt="Image of Keyboard+Mouse">
                 <div class="descSectionText">
@@ -45,16 +47,25 @@
 
         </section>
 
-        <section class="experienceBg">
+        <!-- Experience Section -->
+        <section id="experience" class="experienceBg">
             <p class="experienceTitle">My Experience</p>
 
             <div class="experienceSection">
                 <div class="experienceText">
-                    <p>Text</p>                    
+                    <p>I have gained experience for computers in several different ways. I completed GCSE computer science, then studied BTEC L3 Information Technology in college, and I am now studying Computer Science at the University of Reading.</p>
+                    <p>The section to the right highlights my experience, including programming languages along with other topics I have learnt.</p>
+                    <p>In college, I completed a 3-day long work experience project with the company of Rowe IT. As a team of 4, we had to create a website about renewable energy. Our group placed first amongst all the groups participating and won a £20 voucher. I was the website front end developer, responsible for creating the main structure of the website.</p>
                 </div>
                 <div class="experienceList">
-                    <p>List</p>
-                    <p>List</p>
+                    <p><b> • Level 3 BTEC Diploma Information Technology - Distinction* Distinction Distinction</b></p>
+                    <p><b> • Student (2nd year) in University</b></p>
+                    <p><b> • Work experience with Rowe IT</b></p>
+                    <b> • Programming Languages:</b><p>Python, Java, C#, HTML, CSS, SQL</p>
+                    <p><b> • Project Management</b></p>
+                    <p><b> • Databases</b></p>
+                    <p><b> • Artificial Intelligence</b></p>
+                    <p><b> • Data Structures and Algorithms</b></p>
                 </div>
             </div>
             
