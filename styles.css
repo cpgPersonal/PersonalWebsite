@@ -202,7 +202,7 @@ button {
 
 /* Settings for smaller screens like mobile devices */
 
-@media (max-width: 1400px) {
+@media (max-width: 768px) {
     /*Title Section*/
 
     .titleNavBg {
