@@ -31,7 +31,7 @@ button {
 }
 
 .titleNavBtn {
-    font-size: 1vw;
+    font-size: 1.7vw;
     background-color: transparent;
     border-style: hidden;
     color: #A7B2D6;
@@ -43,7 +43,7 @@ button {
 }
 
 .titleNavBtn:hover {
-    font-size: 2vw;
+    font-size: 2.2vw;
     color: white;
 }
 
@@ -198,6 +198,106 @@ button {
     background-color:#1a2431;
     border-radius: 1vw;
 }
+/* Why Uni?  */
+.whyUniBg {
+    background-color: #2f6381;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.whyUniTitle {
+    padding-top: 3vw;
+    font-size: min(4vw, 48px);
+    text-align: center;
+    color: white;
+    margin-bottom: 3vw;
+    font-weight: 700;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.whyUniTextBg {
+    font-size: min(2vw, 24px);
+    color: white;
+    border-style: solid;
+    border-color: transparent;
+    background-color:#1a2431;
+    border-radius: 1vw;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+/* Seciton for running python files
+.programsBg {
+    background-color: #2f6381;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.programsTitle {
+    padding-top: 3vw;
+    font-size: min(4vw, 48px);
+    text-align: center;
+    color: white;
+    margin-bottom: 2vw;
+    font-weight: 700;
+}
+
+.programsDesc {
+    font-size: min(2vw, 24px);
+    text-align: center;
+    color: white;
+    margin-bottom: 5vw;
+}
+
+.programsDiffTitles {
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+
+.programsSectionTitles {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.programsTop {
+    color: white;
+    border-style: solid;
+    border-color: transparent;
+    background-color: transparent;
+    width: 20%;
+    text-align: center;
+    font-weight: 700;
+}
+
+.programsSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.programsInput {
+    width: 20%;
+    text-align: center;
+}
+
+.programsSubmitBtn {
+    width: 20%;
+    text-align: center;
+}
+
+.programsOutput {
+    color: white;
+    border-style: solid;
+    border-color: transparent;
+    background-color: transparent;
+    width: 20%;
+    text-align: center;
+}
+*/
 
 
 /* Settings for smaller screens like mobile devices */
@@ -292,5 +392,23 @@ button {
     .experienceText {
         width: 90%;
         font-size: 3.5vw;
+    }
+
+    .whyUniBg {
+    background-color: #2f6381;
+    margin: auto;
+    max-width: 1200px;
+    }
+
+    .whyUniTitle {
+        font-size: 6vw;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .whyUniTextBg {
+        font-size: 3.5vw;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
