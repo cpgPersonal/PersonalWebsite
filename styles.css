@@ -17,7 +17,6 @@ button {
 /*Title Section*/
 .titleBG {
     background-color: var(--titleBgColor);
-    height: 45vw;
 }
 
 .titleNavBg {
@@ -33,9 +32,8 @@ button {
 
 .titleNavBtn {
     font-size: 1vw;
-    background-color: var(--titleBgColor);
-    border-style: solid;
-    border-color: var(--titleBgColor);
+    background-color: transparent;
+    border-style: hidden;
     color: #A7B2D6;
     width: 20%;
     height: 20%;
@@ -55,6 +53,10 @@ button {
     justify-content: space-evenly;
     color: #FBBF24;
     margin-bottom: 5%;
+}
+
+.titleMainName {
+    font-size: 4vw
 }
 
 .titleMainUni {
@@ -91,6 +93,7 @@ button {
     width: 5%;
     transition: width 0.3s ease;
     margin-left: 5%;
+    margin-bottom: 3%;
 
 }
 
@@ -110,7 +113,7 @@ button {
     padding-top: 3vw;
     font-size: min(4vw, 48px);
     text-align: center;
-    color: black;
+    color: white;
     margin-bottom: 3vw;
     font-weight: 700;
 }
@@ -138,8 +141,13 @@ button {
 .descSectionText {
     width: 55%;
     font-size: min(2vw, 24px);
-    color: black;
+    color: white;
     text-align: center;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 1vw;;
+    background-color: #1a2431;
+    padding: 1%;
 }
 
 /* Experience Section (My Experience)*/
@@ -154,7 +162,7 @@ button {
     padding-top: 3vw;
     font-size: min(4vw, 48px);
     text-align: center;
-    color: black;
+    color: white;
     margin-bottom: 3vw;
     font-weight: 700;
 }
@@ -169,17 +177,120 @@ button {
 .experienceList {
     width: 30%;
     font-size: min(2vw, 24px);
-    color: black;
+    color: white;
     border-style: solid;
+    border-color: transparent;
     border-width: 0.1vw;
     border-radius: 1vw;
     padding: 2%;
-    background-color: gray;
+    background-color: #1a2431;
+    text-align: center;
 }
 
 .experienceText {
     width: 55%;
+    padding: 1%;
     font-size: min(2vw, 24px);
-    color: black;
+    color: white;
     text-align: center;
+    border-style: solid;
+    border-color: transparent;
+    background-color:#1a2431;
+    border-radius: 1vw;
+}
+
+
+/* Settings for smaller screens like mobile devices */
+
+@media (max-width: 768px) {
+    /*Title Section*/
+
+    .titleNavBg {
+        justify-content: space-between;
+    }
+
+    .titleNavBtn {
+        font-size: 3vw;
+    }
+
+    .titleNavBtn:hover {
+        font-size: 3vw;
+    }
+
+    .titleMain {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .titleMainName {
+        font-size: 6vw;
+    }
+
+    .titleMainUni {
+        font-size: 4.5vw;
+    }
+
+    .titleMainUni:hover {
+        font-size: 4.5vw;
+    }
+
+    .titleMainCourse {
+        font-size: 4.5vw;
+    }
+
+    .titleMainCourse:hover {
+        font-size: 4.5vw;
+    }
+
+    .titleImg {
+        width: 40%;
+    }
+
+    .linkedinImg {
+        width: 15%;
+    }
+
+    .linkedinImg:hover {
+        width: 15%;
+    }
+
+    .descSectionTitle {
+        font-size: 6vw;
+    }
+
+    .descSection {
+        flex-direction: column-reverse;
+    }
+
+    .descSectionImg {
+        width: 65vw;
+    }
+
+    .descSectionText {
+        margin: 5vw;
+        width: 90%;
+        font-size: 3.5vw;
+    }
+
+    .experienceBg {
+        justify-content: space-between;
+    }
+
+    .experienceTitle {
+        font-size: 6vw;
+    }
+
+    .experienceSection {
+        flex-direction: column-reverse;
+    }
+
+    .experienceList {
+        width: 80%;
+        font-size: 3.5vw;
+        margin-bottom: 5vw;
+    }
+
+    .experienceText {
+        width: 90%;
+        font-size: 3.5vw;
+    }
 }
