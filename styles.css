@@ -224,6 +224,7 @@ button {
     background-color: #2f6381;
     margin: auto;
     max-width: 1200px;
+    padding-bottom: 4vw;
 }
 
 .whyUniTitle {
@@ -246,6 +247,34 @@ button {
     border-radius: 1vw;
     margin-left: 15%;
     margin-right: 15%;
+    text-align: center;
+}
+
+.footerBg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4vw;
+    background-color: var(--titleBgColor);
+    height: min(10vw, 150px);
+}
+
+.footerBtn {
+    background-color: #FBBF24;
+    color: black;
+    width: 10%;
+    height: min(4vw, 100px);
+    border-radius: 1vw;
+    margin-left: 5vw;
+    font-size: min(1.5vw, 24px);
+    font-weight: 700;
+}
+
+.footerText {
+    font-size: min(2vw, 24px);
+    color: white;
+    width: min(30%, 240px);
+    margin-right: 5vw;
 }
 
 
@@ -372,11 +401,11 @@ button {
     }
 
     .linkedinImg {
-        width: 15%;
+        width: 10%;
     }
 
     .linkedinImg:hover {
-        width: 15%;
+        width: 10%;
     }
 
     .descSectionTitle {
@@ -389,6 +418,7 @@ button {
 
     .descSectionImg {
         width: 65vw;
+        height: 50vw;
     }
 
     .descSectionText {
@@ -436,5 +466,20 @@ button {
         font-size: 3.5vw;
         margin-left: 5%;
         margin-right: 5%;
+    }
+
+    .footerBg {
+        justify-content: space-evenly;
+    }
+
+    .footerBtn {
+        width: 20%;
+        height: 4vw;
+        font-size: 2vw;
+    }
+
+    .footerText {
+        font-size: 2vw;
+        width: 40%;
     }
 }
