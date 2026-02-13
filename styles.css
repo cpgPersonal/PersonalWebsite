@@ -128,6 +128,7 @@ button {
     background-color: #2f6381;
     margin: auto;
     max-width: 1200px;
+    border-radius: 4vw;
 }
 
 .descSectionTitle {
@@ -176,6 +177,7 @@ button {
     background-color: #2f6381;
     margin: auto;
     max-width: 1200px;
+    border-radius: 4vw;
     
 }
 
@@ -225,6 +227,7 @@ button {
     margin: auto;
     max-width: 1200px;
     padding-bottom: 4vw;
+    border-radius: 4vw;
 }
 
 .whyUniTitle {
@@ -250,6 +253,40 @@ button {
     text-align: center;
 }
 
+/* Achievements */
+
+.achievementsBg {
+    background-color: #2f6381;
+    margin: auto;
+    max-width: 1200px;
+    border-radius: 4vw;
+    padding-bottom: 4vw;
+}
+
+.achievementsTitle {
+    padding-top: 3vw;
+    font-size: min(4vw, 48px);
+    text-align: center;
+    color: white;
+    margin-bottom: 3vw;
+    font-weight: 700;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.achievementsTextBg {
+    font-size: min(2vw, 24px);
+    color: white;
+    border-style: solid;
+    border-color: transparent;
+    background-color:#1a2431;
+    border-radius: 1vw;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+/* Footer Section */
 .footerBg {
     display: flex;
     align-items: center;
@@ -463,6 +500,24 @@ button {
     }
 
     .whyUniTextBg {
+        font-size: 3.5vw;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .achievementsBg {
+    background-color: #2f6381;
+    margin: auto;
+    max-width: 1200px;
+    }
+
+    .achievementsTitle {
+        font-size: 6vw;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .achievementsTextBg {
         font-size: 3.5vw;
         margin-left: 5%;
         margin-right: 5%;
