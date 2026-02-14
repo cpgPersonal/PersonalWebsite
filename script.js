@@ -1,5 +1,3 @@
-//The different functions
-
 //Function for typing text
 function type(text, id, speed) {
     let index = 0;
@@ -8,24 +6,16 @@ function type(text, id, speed) {
         element.innerText = text.slice(0, index);
         index++;
         if (index <= text.length) {
-            setTimeout(typing, speed); //Runs this function again with a sleep timer before it gets run
+            setTimeout(typing, speed); //Runs this function again after sleep timer
         }
     }
     typing();
 }
 
-//Function for parts of website appearing 
-function slide() {
-    
-}
-
-
 //Running the functions
 type("Callum Piper-Gilbert", "mainName", 100);
 type("University of Reading", "mainUni", 100);
 type("BSc Computer Science", "mainCourse", 100);
-
-
 
 const slides = document.querySelectorAll('.slide'); //Selects all that have .slide as the style
 

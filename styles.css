@@ -315,30 +315,30 @@ button {
 }
 
 .slide {
-  opacity: 0;
-  transition: all 0.7s ease;
-  will-change: transform, opacity;
+    opacity: 0;
+    transition: all 1s ease;
+    will-change: transform, opacity;
 }
 
 .slide-left {
-  transform: translateX(-100px);
+    transform: translateX(-100px);
 }
 
 .slide-right {
-  transform: translateX(100px);
+    transform: translateX(100px);
 }
 
 .slide-top {
-  transform: translateY(-100px);
+    transform: translateY(-100px);
 }
 
 .slide-bottom {
-  transform: translateY(100px);
+    transform: translateY(100px);
 }
 
 .slide.show {
-  opacity: 1;
-  transform: translateX(0);
+    opacity: 1;
+    transform: translateX(0);
 }
 
 
@@ -533,9 +533,9 @@ button {
     }
 
     .achievementsBg {
-    background-color: #2f6381;
-    margin: auto;
-    max-width: 1200px;
+        background-color: #2f6381;
+        margin: auto;
+        max-width: 1200px;
     }
 
     .achievementsTitle {
